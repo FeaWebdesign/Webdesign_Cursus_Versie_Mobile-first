@@ -1,0 +1,226 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #ea7317;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+nav {
+    background-color: #cc5803;
+    font-size: 20px;
+    height: 40px;
+    text-align: left;
+}
+
+nav ul {
+    text-align: left;
+    padding-left: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 0px;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    background-color: #ffff3f;
+    padding: 0;
+    color: #780116;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: aquamarine;
+}
+
+.streep {
+    background-color: #ffd60a;
+    height: 8px;
+}
+
+section {
+    padding-top: 0px;
+    display: flex;
+}
+
+#content-left {
+    width: 30%;
+    height: auto;
+    background-color: #eaac8b;
+    padding: 25px;
+    padding-top: 40px;
+}
+
+#content-left img {
+    display: block;
+    margin-top: 50px;
+    width: 300px;
+}
+
+#content-recht {
+    width: 70%;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    padding-top: 40px;
+}
+
+.trompet {
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.saxofoon_2 {
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+#content-recht h1 {
+    color: #cc5803;
+}
+
+#content-recht h2 {
+    color: #cc5803;
+}
+
+.hannah {
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 15px;
+    width: 280px;
+}
+
+.jesse {
+    float: left;
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 15px;
+    width: 280px;
+}
+
+iframe {
+   width: 400px;
+   height: 475px; 
+}
+
+input[type=text], input[type=email], textarea, select, button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 15px 0;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #cc5803;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #780116;
+    color: #ffff3f;
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #cc5803;
+}
+
+.copyright {
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+header {
+    background-color: #ea7317;
+    width: 100%;
+}
+
+section { 
+    display: block;
+}
+
+#content-left {
+    width: auto;
+}
+
+#content-left img {
+    width: 450px;
+    padding-top: 0px;
+}
+
+#content-recht {
+    height: auto;
+    width: auto;
+    margin-left: 0;
+}
+
+nav {
+    height: auto;
+}
+
+nav ul li {
+    display: block;
+}
+
+.hannah {
+    float: right;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.jesse {
+    float: left;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+}
